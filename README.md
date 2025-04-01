@@ -13,10 +13,10 @@
 
 ## Memory Figures
 
-| ![7B model](./figures/memory/7b_1024.png) | ![8B model](./figures/memory/8b_1024.png) |
+| ![7B model](https://anonymous.4open.science/r/ICML2025_12437-B2FF/figures/memory/7b_1024.png) | ![8B model](https://anonymous.4open.science/r/ICML2025_12437-B2FF/figures/memory/8b_1024.png) |
 |-------------------------------------------|-------------------------------------------|
 
-![Memory Legend](./figures/memory/memory_legend.png)
+![Memory Legend](https://anonymous.4open.science/r/ICML2025_12437-B2FF/figures/memory/memory_legend.png)
 
 *Figure 17: Breakdown of memory consumption of Full Fine-tuning, LoRA, LIFT and LIFT_MLP on LLaMA-2-7B and LLaMA-3-8B.*
 
@@ -25,7 +25,7 @@
 ## Training Loss Curve
 
 <p align="center">
-  <img src="./figures/loss_all.png" alt="Loss Curve" width="300">
+  <img src="https://anonymous.4open.science/r/ICML2025_12437-B2FF/figures/loss_all.png" alt="Loss Curve" width="300">
 </p>
 
 *Figure 18: Training loss curves of different methods with LLaMA-2-7B model on MATH-10K dataset.*
@@ -35,13 +35,13 @@
 ## Effective Rank Figures
 
 <!-- Three images in a row -->
-| ![Q](./figures/effective_rank/7B_q_proj_no_y.png) | ![K](./figures/effective_rank/7B_k_proj_no_y.png) | ![V](./figures/effective_rank/7B_v_proj_no_y.png) |
+| ![Q](https://anonymous.4open.science/r/ICML2025_12437-B2FF/figures/effective_rank/7B_q_proj_no_y.png) | ![K](https://anonymous.4open.science/r/ICML2025_12437-B2FF/figures/effective_rank/7B_k_proj_no_y.png) | ![V](https://anonymous.4open.science/r/ICML2025_12437-B2FF/figures/effective_rank/7B_v_proj_no_y.png) |
 |----------------------------------------------------|----------------------------------------------------|----------------------------------------------------|
 
 <!-- Next row (Up, Down) -->
-| ![Up](./figures/effective_rank/7B_up_proj_no_y.png) | ![Down](./figures/effective_rank/7B_down_proj_no_y.png) |
+| ![Up](https://anonymous.4open.science/r/ICML2025_12437-B2FF/figures/effective_rank/7B_up_proj_no_y.png) | ![Down](https://anonymous.4open.science/r/ICML2025_12437-B2FF/figures/effective_rank/7B_down_proj_no_y.png) |
 |------------------------------------------------------|---------------------------------------------------------|
 
-![Effective Rank Legend](./figures/effective_rank/effective_rank_legend.png)
+![Effective Rank Legend](https://anonymous.4open.science/r/ICML2025_12437-B2FF/figures/effective_rank/effective_rank_legend.png)
 
 *Figure 19: Effective rank of the update matrix of different methods on LLaMA-2-7B.*
