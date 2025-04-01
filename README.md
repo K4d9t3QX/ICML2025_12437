@@ -11,57 +11,45 @@
 
 *Table 8: Comparing different methods on LLaMA-2-7B fine-tuned on the MATH-10K dataset with four random seeds.*
 
+<!-- Row 1: Two side-by-side memory figures -->
+<p align="center">
+  <img src="./figures/memory/7b_1024.png" alt="LLaMA-2-7B" width="300" style="margin-right: 20px;"/>
+  <img src="./figures/memory/8b_1024.png" alt="LLaMA-3-8B" width="300"/>
+</p>
 
-<div style="display: flex; justify-content: space-between;">
-
-  <div style="flex: 1; text-align: center;">
-    <img src="./figures/memory/7b_1024.png" alt="Figure 1" width="300"/>
-  </div>
-
-  <div style="flex: 1; text-align: center;">
-    <img src="./figures/memory/8b_1024.png" alt="Figure 2" width="300"/>
-  </div>
-
-</div>
-
-<div style="margin-top: 10px; text-align: center;">
+<p align="center">
   <img src="./figures/memory/memory_legend.png" alt="Legend" width="600"/>
-</div>
-
-<p style="text-align: center; font-style: italic; margin-top: 10px;">
-  <strong>Figure 17:</strong> Breakdown of memory consumption of Full Fine-tuning, LoRA, LIFT and LIFT_MLP on LLaMA-2-7B and LLaMA-3-8B.
 </p>
 
+<p align="center"><em><strong>Figure 17:</strong> Breakdown of memory consumption of Full Fine-tuning, LoRA, LIFT and LIFT_MLP on LLaMA-2-7B and LLaMA-3-8B.</em></p>
 
+---
 
-<div style="margin-top: px; text-align: center;">
-  <img src="./figures/loss_all.png" alt="Legend" width="400"/>
-</div>
-
-<p style="text-align: center; font-style: italic; margin-top: 10px;">
-  <strong>Figure 18:</strong> Training loss curves of different methods with LLaMA-2-7B model on MATH-10K dataset.
+<!-- Row 2: Training loss curve -->
+<p align="center">
+  <img src="./figures/loss_all.png" alt="Loss Curve" width="400"/>
 </p>
 
+<p align="center"><em><strong>Figure 18:</strong> Training loss curves of different methods with LLaMA-2-7B model on MATH-10K dataset.</em></p>
 
-<!-- Row 1: 3 figures -->
-<div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
-  <img src="./figures/effective_rank/7B_q_proj_no_y.png" alt="Figure 1" style="width: 32%;"/>
-  <img src="./figures/effective_rank/7B_k_proj_no_y.png" alt="Figure 2" style="width: 32%;"/>
-  <img src="./figures/effective_rank/7B_v_proj_no_y.png" alt="Figure 3" style="width: 32%;"/>
-</div>
+---
 
-<!-- Row 2: 2 figures -->
-<div style="display: flex; justify-content: space-around; margin-bottom: 10px;">
-  <img src="./figures/effective_rank/7B_up_proj_no_y.png" alt="Figure 4" style="width: 32%;"/>
-  <img src="./figures/effective_rank/7B_down_proj_no_y.png" alt="Figure 5" style="width: 32%;"/>
-</div>
-
-<!-- Row 3: Wide legend -->
-<div style="text-align: center; margin-top: 10px;">
-  <img src="./figures/effective_rank/effective_rank_legend.png" alt="Legend" style="width: 90%; max-width: 800px;"/>
-</div>
-
-<!-- Optional unified caption -->
-<p style="text-align: center; font-style: italic; margin-top: 10px;">
-  <strong>Figure 19:</strong> Effective rank of the update matrix of different methods on LLaMA-2-7B.
+<!-- Row 3: Three figures in a row -->
+<p align="center">
+  <img src="./figures/effective_rank/7B_q_proj_no_y.png" alt="Q" width="250" style="margin-right: 10px;"/>
+  <img src="./figures/effective_rank/7B_k_proj_no_y.png" alt="K" width="250" style="margin-right: 10px;"/>
+  <img src="./figures/effective_rank/7B_v_proj_no_y.png" alt="V" width="250"/>
 </p>
+
+<!-- Row 4: Two figures in a row -->
+<p align="center">
+  <img src="./figures/effective_rank/7B_up_proj_no_y.png" alt="Up" width="250" style="margin-right: 20px;"/>
+  <img src="./figures/effective_rank/7B_down_proj_no_y.png" alt="Down" width="250"/>
+</p>
+
+<!-- Legend -->
+<p align="center">
+  <img src="./figures/effective_rank/effective_rank_legend.png" alt="Legend" width="600"/>
+</p>
+
+<p align="center"><em><strong>Figure 19:</strong> Effective rank of the update matrix of different methods on LLaMA-2-7B.</em></p>
