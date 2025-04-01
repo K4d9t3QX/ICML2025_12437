@@ -29,7 +29,7 @@
 </div>
 
 <p style="text-align: center; font-style: italic; margin-top: 10px;">
-  <strong>Figure 17:</strong> Breakdown of memory consumption of Full Fine-tuning, LoRA, LIFT and LIFT_MLP.
+  <strong>Figure 17:</strong> Breakdown of memory consumption of Full Fine-tuning, LoRA, LIFT and LIFT_MLP on LLaMA-2-7B and LLaMA-3-8B.
 </p>
 
 
