@@ -13,12 +13,12 @@
 
 <!-- Row 1: Two side-by-side memory figures -->
 <p align="center">
-  <img src="./figures/memory/7b_1024.png" alt="LLaMA-2-7B" width="300" style="margin-right: 20px;"/>
-  <img src="./figures/memory/8b_1024.png" alt="LLaMA-3-8B" width="300"/>
+  <img src="./figures/memory/7b_1024.png" alt="LLaMA-2-7B" width="300" />
+  <img src="./figures/memory/8b_1024.png" alt="LLaMA-3-8B" width="300" />
 </p>
 
 <p align="center">
-  <img src="./figures/memory/memory_legend.png" alt="Legend" width="600"/>
+  <img src="./figures/memory/memory_legend.png" alt="Legend" width="600" />
 </p>
 
 <p align="center"><em><strong>Figure 17:</strong> Breakdown of memory consumption of Full Fine-tuning, LoRA, LIFT and LIFT_MLP on LLaMA-2-7B and LLaMA-3-8B.</em></p>
@@ -27,7 +27,7 @@
 
 <!-- Row 2: Training loss curve -->
 <p align="center">
-  <img src="./figures/loss_all.png" alt="Loss Curve" width="400"/>
+  <img src="./figures/loss_all.png" alt="Loss Curve" width="400" />
 </p>
 
 <p align="center"><em><strong>Figure 18:</strong> Training loss curves of different methods with LLaMA-2-7B model on MATH-10K dataset.</em></p>
@@ -36,20 +36,19 @@
 
 <!-- Row 3: Three figures in a row -->
 <p align="center">
-  <img src="./figures/effective_rank/7B_q_proj_no_y.png" alt="Q" width="250" style="margin-right: 10px;"/>
-  <img src="./figures/effective_rank/7B_k_proj_no_y.png" alt="K" width="250" style="margin-right: 10px;"/>
-  <img src="./figures/effective_rank/7B_v_proj_no_y.png" alt="V" width="250"/>
+  <img src="./figures/effective_rank/7B_q_proj_no_y.png" alt="Q" width="250" />
+  <img src="./figures/effective_rank/7B_k_proj_no_y.png" alt="K" width="250" />
+  <img src="./figures/effective_rank/7B_v_proj_no_y.png" alt="V" width="250" />
 </p>
 
 <!-- Row 4: Two figures in a row -->
 <p align="center">
-  <img src="./figures/effective_rank/7B_up_proj_no_y.png" alt="Up" width="250" style="margin-right: 20px;"/>
-  <img src="./figures/effective_rank/7B_down_proj_no_y.png" alt="Down" width="250"/>
+  <img src="./figures/effective_rank/7B_up_proj_no_y.png" alt="Up" width="250" />
+  <img src="./figures/effective_rank/7B_down_proj_no_y.png" alt="Down" width="250" />
 </p>
 
-<!-- Legend -->
 <p align="center">
-  <img src="./figures/effective_rank/effective_rank_legend.png" alt="Legend" width="600"/>
+  <img src="./figures/effective_rank/effective_rank_legend.png" alt="Legend" width="600" />
 </p>
 
 <p align="center"><em><strong>Figure 19:</strong> Effective rank of the update matrix of different methods on LLaMA-2-7B.</em></p>
